@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\proga_C\allocator\allocator_sorted_list\src\allocator_sorted_list.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\proga_C\allocator\allocator_sorted_list\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{ECF4EB92-36A9-35DB-8815-52193DA03326}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

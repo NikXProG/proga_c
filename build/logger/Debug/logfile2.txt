@@ -1,0 +1,3 @@
+[TRACE][09.06.2024 15:45:19 09.06.2024 15:45:19] This is a trace message.
+[TRACE][09.06.2024 15:45:24 09.06.2024 15:45:24] This is a trace message.
+[TRACE][09.06.2024 15:50:22 09.06.2024 15:50:22] This is a trace message.

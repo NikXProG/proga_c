@@ -1,0 +1,17 @@
+{
+    "version": 8,
+    "configurePresets": [
+        {
+            "name": "mpm-labs",
+            "displayName": "Clang 16.0.0 x86_64-unknown-windows-msvc",
+            "description": "Using compilers: C = C:\\Users\\tiger\\AppData\\Local\\Programs\\Swift\\Toolchains\\5.10.0+Asserts\\usr\\bin\\clang.exe, CXX = C:\\Users\\tiger\\AppData\\Local\\Programs\\Swift\\Toolchains\\5.10.0+Asserts\\usr\\bin\\clang++.exe",
+            "binaryDir": "${sourceDir}/build/",
+            "cacheVariables": {
+                "CMAKE_INSTALL_PREFIX": "${sourceDir}/install/",
+                "CMAKE_C_COMPILER": "C:/Users/tiger/AppData/Local/Programs/Swift/Toolchains/5.10.0+Asserts/usr/bin/clang.exe",
+                "CMAKE_CXX_COMPILER": "C:/Users/tiger/AppData/Local/Programs/Swift/Toolchains/5.10.0+Asserts/usr/bin/clang++.exe",
+                "CMAKE_BUILD_TYPE": "Debug"
+            }
+        }
+    ]
+}

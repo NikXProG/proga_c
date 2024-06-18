@@ -1,0 +1,200 @@
+[DEBUG][18.06.2024 06:02:46 18.06.2024 06:02:46] starting allocation process
+[DEBUG][18.06.2024 06:02:46 18.06.2024 06:02:46] Memory allocation successful
+[DEBUG][18.06.2024 06:02:46 18.06.2024 06:02:46] Allocation process completed
+[DEBUG][18.06.2024 06:02:46 18.06.2024 06:02:46] Starting deallocation process
+[DEBUG][18.06.2024 06:02:46 18.06.2024 06:02:46] Deallocation process completed
+[DEBUG][18.06.2024 06:02:46 18.06.2024 06:02:46] starting allocation process
+[DEBUG][18.06.2024 06:02:46 18.06.2024 06:02:46] Memory allocation successful
+[DEBUG][18.06.2024 06:02:46 18.06.2024 06:02:46] Allocation process completed
+[DEBUG][18.06.2024 06:02:46 18.06.2024 06:02:46] starting allocation process
+[DEBUG][18.06.2024 06:02:46 18.06.2024 06:02:46] occup|80b block status
+[DEBUG][18.06.2024 06:02:46 18.06.2024 06:02:46] Allocation process completed
+[DEBUG][18.06.2024 06:02:46 18.06.2024 06:02:46] Starting deallocation process
+[DEBUG][18.06.2024 06:02:46 18.06.2024 06:02:46] Memory block content (byte array representation):
+00000000: 00 00 00 00 01 00 00 00 02 00 00 00 03 00 00 00 
+00000010: 04 00 00 00 05 00 00 00 06 00 00 00 07 00 00 00 
+00000020: 08 00 00 00 09 00 00 00 0a 00 00 00 0b 00 00 00 
+00000030: 0c 00 00 00 0d 00 00 00 0e 00 00 00 0f 00 00 00 
+00000040: 10 00 00 00 11 00 00 00 12 00 00 00 13 00 00 00 
+[DEBUG][18.06.2024 06:02:46 18.06.2024 06:02:46] awail|80b block status
+[DEBUG][18.06.2024 06:02:46 18.06.2024 06:02:46] Merged with previous block
+[DEBUG][18.06.2024 06:02:46 18.06.2024 06:02:46] Deallocation process completed
+[DEBUG][18.06.2024 06:02:46 18.06.2024 06:02:46] starting allocation process
+[DEBUG][18.06.2024 06:02:46 18.06.2024 06:02:46] occup|80b block status
+[DEBUG][18.06.2024 06:02:46 18.06.2024 06:02:46] Allocation process completed
+[DEBUG][18.06.2024 06:02:46 18.06.2024 06:02:46] Starting deallocation process
+[DEBUG][18.06.2024 06:02:46 18.06.2024 06:02:46] Memory block content (byte array representation):
+00000000: 00 00 00 00 01 00 00 00 02 00 00 00 03 00 00 00 
+00000010: 04 00 00 00 05 00 00 00 06 00 00 00 07 00 00 00 
+00000020: 08 00 00 00 09 00 00 00 0a 00 00 00 0b 00 00 00 
+00000030: 0c 00 00 00 0d 00 00 00 0e 00 00 00 0f 00 00 00 
+00000040: 10 00 00 00 11 00 00 00 12 00 00 00 13 00 00 00 
+[DEBUG][18.06.2024 06:02:46 18.06.2024 06:02:46] awail|80b block status
+[DEBUG][18.06.2024 06:02:46 18.06.2024 06:02:46] Merged with previous block
+[DEBUG][18.06.2024 06:02:46 18.06.2024 06:02:46] Deallocation process completed
+[DEBUG][18.06.2024 06:02:46 18.06.2024 06:02:46] Starting deallocation process
+[DEBUG][18.06.2024 06:02:46 18.06.2024 06:02:46] starting allocation process
+[DEBUG][18.06.2024 06:02:46 18.06.2024 06:02:46] occup|80b block status
+[DEBUG][18.06.2024 06:02:46 18.06.2024 06:02:46] Allocation process completed
+[DEBUG][18.06.2024 06:02:46 18.06.2024 06:02:46] starting allocation process
+[DEBUG][18.06.2024 06:02:46 18.06.2024 06:02:46] occup|84b block status
+[DEBUG][18.06.2024 06:02:46 18.06.2024 06:02:46] Allocation process completed
+[DEBUG][18.06.2024 06:02:46 18.06.2024 06:02:46] starting allocation process
+[DEBUG][18.06.2024 06:02:46 18.06.2024 06:02:46] occup|84b block status
+[DEBUG][18.06.2024 06:02:46 18.06.2024 06:02:46] Allocation process completed
+[DEBUG][18.06.2024 06:02:46 18.06.2024 06:02:46] starting allocation process
+[DEBUG][18.06.2024 06:02:46 18.06.2024 06:02:46] occup|84b block status
+[DEBUG][18.06.2024 06:02:46 18.06.2024 06:02:46] Allocation process completed
+[DEBUG][18.06.2024 06:02:46 18.06.2024 06:02:46] starting allocation process
+[DEBUG][18.06.2024 06:02:46 18.06.2024 06:02:46] occup|84b block status
+[DEBUG][18.06.2024 06:02:46 18.06.2024 06:02:46] Allocation process completed
+[DEBUG][18.06.2024 06:04:29 18.06.2024 06:04:29] starting allocation process
+[DEBUG][18.06.2024 06:04:29 18.06.2024 06:04:29] Memory allocation successful
+[DEBUG][18.06.2024 06:04:29 18.06.2024 06:04:29] Allocation process completed
+[DEBUG][18.06.2024 06:04:29 18.06.2024 06:04:29] Starting deallocation process
+[DEBUG][18.06.2024 06:04:29 18.06.2024 06:04:29] Deallocation process completed
+[DEBUG][18.06.2024 06:04:29 18.06.2024 06:04:29] starting allocation process
+[DEBUG][18.06.2024 06:04:29 18.06.2024 06:04:29] Memory allocation successful
+[DEBUG][18.06.2024 06:04:29 18.06.2024 06:04:29] Allocation process completed
+[DEBUG][18.06.2024 06:04:29 18.06.2024 06:04:29] starting allocation process
+[DEBUG][18.06.2024 06:04:29 18.06.2024 06:04:29] occup|80b block status
+[DEBUG][18.06.2024 06:04:29 18.06.2024 06:04:29] Allocation process completed
+[DEBUG][18.06.2024 06:04:29 18.06.2024 06:04:29] Starting deallocation process
+[DEBUG][18.06.2024 06:04:29 18.06.2024 06:04:29] Memory block content (byte array representation):
+00000000: 00 00 00 00 01 00 00 00 02 00 00 00 03 00 00 00 
+00000010: 04 00 00 00 05 00 00 00 06 00 00 00 07 00 00 00 
+00000020: 08 00 00 00 09 00 00 00 0a 00 00 00 0b 00 00 00 
+00000030: 0c 00 00 00 0d 00 00 00 0e 00 00 00 0f 00 00 00 
+00000040: 10 00 00 00 11 00 00 00 12 00 00 00 13 00 00 00 
+[DEBUG][18.06.2024 06:04:29 18.06.2024 06:04:29] awail|80b block status
+[DEBUG][18.06.2024 06:04:29 18.06.2024 06:04:29] Merged with previous block
+[DEBUG][18.06.2024 06:04:29 18.06.2024 06:04:29] Deallocation process completed
+[DEBUG][18.06.2024 06:04:29 18.06.2024 06:04:29] starting allocation process
+[DEBUG][18.06.2024 06:04:29 18.06.2024 06:04:29] occup|80b block status
+[DEBUG][18.06.2024 06:04:29 18.06.2024 06:04:29] Allocation process completed
+[DEBUG][18.06.2024 06:04:29 18.06.2024 06:04:29] Starting deallocation process
+[DEBUG][18.06.2024 06:04:29 18.06.2024 06:04:29] Memory block content (byte array representation):
+00000000: 00 00 00 00 01 00 00 00 02 00 00 00 03 00 00 00 
+00000010: 04 00 00 00 05 00 00 00 06 00 00 00 07 00 00 00 
+00000020: 08 00 00 00 09 00 00 00 0a 00 00 00 0b 00 00 00 
+00000030: 0c 00 00 00 0d 00 00 00 0e 00 00 00 0f 00 00 00 
+00000040: 10 00 00 00 11 00 00 00 12 00 00 00 13 00 00 00 
+[DEBUG][18.06.2024 06:04:29 18.06.2024 06:04:29] awail|80b block status
+[DEBUG][18.06.2024 06:04:29 18.06.2024 06:04:29] Merged with previous block
+[DEBUG][18.06.2024 06:04:29 18.06.2024 06:04:29] Deallocation process completed
+[DEBUG][18.06.2024 06:04:29 18.06.2024 06:04:29] Starting deallocation process
+[DEBUG][18.06.2024 06:04:29 18.06.2024 06:04:29] starting allocation process
+[DEBUG][18.06.2024 06:04:29 18.06.2024 06:04:29] occup|80b block status
+[DEBUG][18.06.2024 06:04:29 18.06.2024 06:04:29] Allocation process completed
+[DEBUG][18.06.2024 06:04:29 18.06.2024 06:04:29] starting allocation process
+[DEBUG][18.06.2024 06:04:29 18.06.2024 06:04:29] occup|84b block status
+[DEBUG][18.06.2024 06:04:29 18.06.2024 06:04:29] Allocation process completed
+[DEBUG][18.06.2024 06:04:29 18.06.2024 06:04:29] starting allocation process
+[DEBUG][18.06.2024 06:04:29 18.06.2024 06:04:29] occup|84b block status
+[DEBUG][18.06.2024 06:04:29 18.06.2024 06:04:29] Allocation process completed
+[DEBUG][18.06.2024 06:04:29 18.06.2024 06:04:29] starting allocation process
+[DEBUG][18.06.2024 06:04:29 18.06.2024 06:04:29] occup|84b block status
+[DEBUG][18.06.2024 06:04:29 18.06.2024 06:04:29] Allocation process completed
+[DEBUG][18.06.2024 06:04:29 18.06.2024 06:04:29] starting allocation process
+[DEBUG][18.06.2024 06:04:29 18.06.2024 06:04:29] occup|84b block status
+[DEBUG][18.06.2024 06:04:29 18.06.2024 06:04:29] Allocation process completed
+[DEBUG][18.06.2024 06:04:56 18.06.2024 06:04:56] starting allocation process
+[DEBUG][18.06.2024 06:04:56 18.06.2024 06:04:56] Memory allocation successful
+[DEBUG][18.06.2024 06:04:56 18.06.2024 06:04:56] Allocation process completed
+[DEBUG][18.06.2024 06:04:56 18.06.2024 06:04:56] Starting deallocation process
+[DEBUG][18.06.2024 06:04:56 18.06.2024 06:04:56] Deallocation process completed
+[DEBUG][18.06.2024 06:04:56 18.06.2024 06:04:56] starting allocation process
+[DEBUG][18.06.2024 06:04:56 18.06.2024 06:04:56] Memory allocation successful
+[DEBUG][18.06.2024 06:04:56 18.06.2024 06:04:56] Allocation process completed
+[DEBUG][18.06.2024 06:04:56 18.06.2024 06:04:56] starting allocation process
+[DEBUG][18.06.2024 06:04:56 18.06.2024 06:04:56] occup|80b block status
+[DEBUG][18.06.2024 06:04:56 18.06.2024 06:04:56] Allocation process completed
+[DEBUG][18.06.2024 06:04:56 18.06.2024 06:04:56] Starting deallocation process
+[DEBUG][18.06.2024 06:04:56 18.06.2024 06:04:56] Memory block content (byte array representation):
+00000000: 00 00 00 00 01 00 00 00 02 00 00 00 03 00 00 00 
+00000010: 04 00 00 00 05 00 00 00 06 00 00 00 07 00 00 00 
+00000020: 08 00 00 00 09 00 00 00 0a 00 00 00 0b 00 00 00 
+00000030: 0c 00 00 00 0d 00 00 00 0e 00 00 00 0f 00 00 00 
+00000040: 10 00 00 00 11 00 00 00 12 00 00 00 13 00 00 00 
+[DEBUG][18.06.2024 06:04:56 18.06.2024 06:04:56] awail|80b block status
+[DEBUG][18.06.2024 06:04:56 18.06.2024 06:04:56] Merged with previous block
+[DEBUG][18.06.2024 06:04:56 18.06.2024 06:04:56] Deallocation process completed
+[DEBUG][18.06.2024 06:04:56 18.06.2024 06:04:56] starting allocation process
+[DEBUG][18.06.2024 06:04:56 18.06.2024 06:04:56] occup|80b block status
+[DEBUG][18.06.2024 06:04:56 18.06.2024 06:04:56] Allocation process completed
+[DEBUG][18.06.2024 06:04:56 18.06.2024 06:04:56] Starting deallocation process
+[DEBUG][18.06.2024 06:04:56 18.06.2024 06:04:56] Memory block content (byte array representation):
+00000000: 00 00 00 00 01 00 00 00 02 00 00 00 03 00 00 00 
+00000010: 04 00 00 00 05 00 00 00 06 00 00 00 07 00 00 00 
+00000020: 08 00 00 00 09 00 00 00 0a 00 00 00 0b 00 00 00 
+00000030: 0c 00 00 00 0d 00 00 00 0e 00 00 00 0f 00 00 00 
+00000040: 10 00 00 00 11 00 00 00 12 00 00 00 13 00 00 00 
+[DEBUG][18.06.2024 06:04:56 18.06.2024 06:04:56] awail|80b block status
+[DEBUG][18.06.2024 06:04:56 18.06.2024 06:04:56] Merged with previous block
+[DEBUG][18.06.2024 06:04:56 18.06.2024 06:04:56] Deallocation process completed
+[DEBUG][18.06.2024 06:04:56 18.06.2024 06:04:56] Starting deallocation process
+[DEBUG][18.06.2024 06:04:56 18.06.2024 06:04:56] starting allocation process
+[DEBUG][18.06.2024 06:04:56 18.06.2024 06:04:56] occup|80b block status
+[DEBUG][18.06.2024 06:04:56 18.06.2024 06:04:56] Allocation process completed
+[DEBUG][18.06.2024 06:04:56 18.06.2024 06:04:56] starting allocation process
+[DEBUG][18.06.2024 06:04:56 18.06.2024 06:04:56] occup|84b block status
+[DEBUG][18.06.2024 06:04:56 18.06.2024 06:04:56] Allocation process completed
+[DEBUG][18.06.2024 06:04:56 18.06.2024 06:04:56] starting allocation process
+[DEBUG][18.06.2024 06:04:56 18.06.2024 06:04:56] occup|84b block status
+[DEBUG][18.06.2024 06:04:56 18.06.2024 06:04:56] Allocation process completed
+[DEBUG][18.06.2024 06:04:56 18.06.2024 06:04:56] starting allocation process
+[DEBUG][18.06.2024 06:04:56 18.06.2024 06:04:56] occup|84b block status
+[DEBUG][18.06.2024 06:04:56 18.06.2024 06:04:56] Allocation process completed
+[DEBUG][18.06.2024 06:04:56 18.06.2024 06:04:56] starting allocation process
+[DEBUG][18.06.2024 06:04:56 18.06.2024 06:04:56] occup|84b block status
+[DEBUG][18.06.2024 06:04:56 18.06.2024 06:04:56] Allocation process completed
+[DEBUG][18.06.2024 06:05:30 18.06.2024 06:05:30] starting allocation process
+[DEBUG][18.06.2024 06:05:30 18.06.2024 06:05:30] Memory allocation successful
+[DEBUG][18.06.2024 06:05:30 18.06.2024 06:05:30] Allocation process completed
+[DEBUG][18.06.2024 06:05:30 18.06.2024 06:05:30] Starting deallocation process
+[DEBUG][18.06.2024 06:05:30 18.06.2024 06:05:30] Deallocation process completed
+[DEBUG][18.06.2024 06:05:30 18.06.2024 06:05:30] starting allocation process
+[DEBUG][18.06.2024 06:05:30 18.06.2024 06:05:30] Memory allocation successful
+[DEBUG][18.06.2024 06:05:30 18.06.2024 06:05:30] Allocation process completed
+[DEBUG][18.06.2024 06:05:30 18.06.2024 06:05:30] starting allocation process
+[DEBUG][18.06.2024 06:05:30 18.06.2024 06:05:30] occup|80b block status
+[DEBUG][18.06.2024 06:05:30 18.06.2024 06:05:30] Allocation process completed
+[DEBUG][18.06.2024 06:05:30 18.06.2024 06:05:30] Starting deallocation process
+[DEBUG][18.06.2024 06:05:30 18.06.2024 06:05:30] Memory block content (byte array representation):
+00000000: 00 00 00 00 01 00 00 00 02 00 00 00 03 00 00 00 
+00000010: 04 00 00 00 05 00 00 00 06 00 00 00 07 00 00 00 
+00000020: 08 00 00 00 09 00 00 00 0a 00 00 00 0b 00 00 00 
+00000030: 0c 00 00 00 0d 00 00 00 0e 00 00 00 0f 00 00 00 
+00000040: 10 00 00 00 11 00 00 00 12 00 00 00 13 00 00 00 
+[DEBUG][18.06.2024 06:05:30 18.06.2024 06:05:30] awail|80b block status
+[DEBUG][18.06.2024 06:05:30 18.06.2024 06:05:30] Merged with previous block
+[DEBUG][18.06.2024 06:05:30 18.06.2024 06:05:30] Deallocation process completed
+[DEBUG][18.06.2024 06:05:30 18.06.2024 06:05:30] starting allocation process
+[DEBUG][18.06.2024 06:05:30 18.06.2024 06:05:30] occup|80b block status
+[DEBUG][18.06.2024 06:05:30 18.06.2024 06:05:30] Allocation process completed
+[DEBUG][18.06.2024 06:05:30 18.06.2024 06:05:30] Starting deallocation process
+[DEBUG][18.06.2024 06:05:30 18.06.2024 06:05:30] Memory block content (byte array representation):
+00000000: 00 00 00 00 01 00 00 00 02 00 00 00 03 00 00 00 
+00000010: 04 00 00 00 05 00 00 00 06 00 00 00 07 00 00 00 
+00000020: 08 00 00 00 09 00 00 00 0a 00 00 00 0b 00 00 00 
+00000030: 0c 00 00 00 0d 00 00 00 0e 00 00 00 0f 00 00 00 
+00000040: 10 00 00 00 11 00 00 00 12 00 00 00 13 00 00 00 
+[DEBUG][18.06.2024 06:05:30 18.06.2024 06:05:30] awail|80b block status
+[DEBUG][18.06.2024 06:05:30 18.06.2024 06:05:30] Merged with previous block
+[DEBUG][18.06.2024 06:05:30 18.06.2024 06:05:30] Deallocation process completed
+[DEBUG][18.06.2024 06:05:30 18.06.2024 06:05:30] Starting deallocation process
+[DEBUG][18.06.2024 06:05:30 18.06.2024 06:05:30] starting allocation process
+[DEBUG][18.06.2024 06:05:30 18.06.2024 06:05:30] occup|80b block status
+[DEBUG][18.06.2024 06:05:30 18.06.2024 06:05:30] Allocation process completed
+[DEBUG][18.06.2024 06:05:30 18.06.2024 06:05:30] starting allocation process
+[DEBUG][18.06.2024 06:05:30 18.06.2024 06:05:30] occup|84b block status
+[DEBUG][18.06.2024 06:05:30 18.06.2024 06:05:30] Allocation process completed
+[DEBUG][18.06.2024 06:05:30 18.06.2024 06:05:30] starting allocation process
+[DEBUG][18.06.2024 06:05:30 18.06.2024 06:05:30] occup|84b block status
+[DEBUG][18.06.2024 06:05:30 18.06.2024 06:05:30] Allocation process completed
+[DEBUG][18.06.2024 06:05:30 18.06.2024 06:05:30] starting allocation process
+[DEBUG][18.06.2024 06:05:30 18.06.2024 06:05:30] occup|84b block status
+[DEBUG][18.06.2024 06:05:30 18.06.2024 06:05:30] Allocation process completed
+[DEBUG][18.06.2024 06:05:30 18.06.2024 06:05:30] starting allocation process
+[DEBUG][18.06.2024 06:05:30 18.06.2024 06:05:30] occup|84b block status
+[DEBUG][18.06.2024 06:05:30 18.06.2024 06:05:30] Allocation process completed

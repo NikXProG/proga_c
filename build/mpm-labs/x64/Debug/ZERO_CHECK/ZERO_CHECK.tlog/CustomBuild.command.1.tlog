@@ -1,0 +1,10 @@
+^C:\PROGA_C\BUILD\MPM-LABS\CMAKEFILES\01410BCF08C3268A11304DA5B3BE2169\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/proga_C -BC:/proga_C/build/mpm-labs --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/proga_C/build/mpm-labs/mpm_labs.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

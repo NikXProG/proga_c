@@ -1,0 +1,6 @@
+[INFORMATION][09.06.2024 15:45:19 09.06.2024 15:45:19] This is an info message.
+[ERROR][09.06.2024 15:45:19 09.06.2024 15:45:19] This is another error message.
+[INFORMATION][09.06.2024 15:45:24 09.06.2024 15:45:24] This is an info message.
+[ERROR][09.06.2024 15:45:24 09.06.2024 15:45:24] This is another error message.
+[INFORMATION][09.06.2024 15:50:22 09.06.2024 15:50:22] This is an info message.
+[ERROR][09.06.2024 15:50:22 09.06.2024 15:50:22] This is another error message.

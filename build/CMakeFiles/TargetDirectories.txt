@@ -1,0 +1,12 @@
+C:/proga_C/build/CMakeFiles/mpm_labs.dir
+C:/proga_C/build/CMakeFiles/ALL_BUILD.dir
+C:/proga_C/build/CMakeFiles/ZERO_CHECK.dir
+C:/proga_C/build/logger/CMakeFiles/mpm_labs_log.dir
+C:/proga_C/build/logger/CMakeFiles/ALL_BUILD.dir
+C:/proga_C/build/allocator/CMakeFiles/ALL_BUILD.dir
+C:/proga_C/build/allocator/allocator/CMakeFiles/mpm_labs_allctr_allctr.dir
+C:/proga_C/build/allocator/allocator/CMakeFiles/ALL_BUILD.dir
+C:/proga_C/build/allocator/allocator_global_heap/CMakeFiles/mpm_labs_allctr_allctr_gbl_hp.dir
+C:/proga_C/build/allocator/allocator_global_heap/CMakeFiles/ALL_BUILD.dir
+C:/proga_C/build/allocator/allocator_sorted_list/CMakeFiles/mpm_labs_allctr_allctr_srtd_lst.dir
+C:/proga_C/build/allocator/allocator_sorted_list/CMakeFiles/ALL_BUILD.dir

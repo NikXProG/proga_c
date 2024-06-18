@@ -1,0 +1,36 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"allocator/allocator_sorted_list/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "mpm_labs_allctr_allctr_srtd_lst::@4702340b8f18f13d4df3"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "ALL_BUILD::@4702340b8f18f13d4df3",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : "allocator/allocator_sorted_list",
+		"source" : "allocator/allocator_sorted_list"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}
