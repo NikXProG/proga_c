@@ -177,6 +177,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{216FB027-6647-34AB-9E03-951862097AAD}</Project>
       <Name>mpm_labs_allctr_allctr</Name>
     </ProjectReference>
+    <ProjectReference Include="C:\proga_C\build\allocator\allocator_buddies_system\mpm_labs_allctr_allctr_budds_systm.vcxproj">
+      <Project>{10F6558C-14B4-3738-BA29-18507D149276}</Project>
+      <Name>mpm_labs_allctr_allctr_budds_systm</Name>
+    </ProjectReference>
     <ProjectReference Include="C:\proga_C\build\allocator\allocator_global_heap\mpm_labs_allctr_allctr_gbl_hp.vcxproj">
       <Project>{8AAF7CEB-E762-3253-A64B-FD6988A100F3}</Project>
       <Name>mpm_labs_allctr_allctr_gbl_hp</Name>

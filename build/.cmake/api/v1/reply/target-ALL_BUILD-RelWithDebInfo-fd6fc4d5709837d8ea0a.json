@@ -1,0 +1,36 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"allocator/allocator_buddies_system/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "mpm_labs_allctr_allctr_budds_systm::@c9a9cf57e8abda1f3e48"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "ALL_BUILD::@c9a9cf57e8abda1f3e48",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : "allocator/allocator_buddies_system",
+		"source" : "allocator/allocator_buddies_system"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

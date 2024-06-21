@@ -86,7 +86,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\proga_C\logger\.\include;C:\proga_C\allocator\allocator_global_heap\.\include;C:\proga_C\allocator\allocator\.\include;C:\proga_C\allocator\allocator_sorted_list\.\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\proga_C\logger\.\include;C:\proga_C\allocator\allocator_global_heap\.\include;C:\proga_C\allocator\allocator\.\include;C:\proga_C\allocator\allocator_sorted_list\.\include;C:\proga_C\allocator\allocator_buddies_system\.\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -103,10 +103,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\proga_C\logger\.\include;C:\proga_C\allocator\allocator_global_heap\.\include;C:\proga_C\allocator\allocator\.\include;C:\proga_C\allocator\allocator_sorted_list\.\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\proga_C\logger\.\include;C:\proga_C\allocator\allocator_global_heap\.\include;C:\proga_C\allocator\allocator\.\include;C:\proga_C\allocator\allocator_sorted_list\.\include;C:\proga_C\allocator\allocator_buddies_system\.\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\proga_C\logger\.\include;C:\proga_C\allocator\allocator_global_heap\.\include;C:\proga_C\allocator\allocator\.\include;C:\proga_C\allocator\allocator_sorted_list\.\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\proga_C\logger\.\include;C:\proga_C\allocator\allocator_global_heap\.\include;C:\proga_C\allocator\allocator\.\include;C:\proga_C\allocator\allocator_sorted_list\.\include;C:\proga_C\allocator\allocator_buddies_system\.\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -114,7 +114,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>logger\Debug\mpm_labs_log.lib;allocator\allocator_global_heap\Debug\mpm_labs_allctr_allctr_gbl_hp.lib;allocator\allocator\Debug\mpm_labs_allctr_allctr.lib;allocator\allocator_sorted_list\Debug\mpm_labs_allctr_allctr_srtd_lst.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>logger\Debug\mpm_labs_log.lib;allocator\allocator_global_heap\Debug\mpm_labs_allctr_allctr_gbl_hp.lib;allocator\allocator\Debug\mpm_labs_allctr_allctr.lib;allocator\allocator_sorted_list\Debug\mpm_labs_allctr_allctr_srtd_lst.lib;allocator\allocator_buddies_system\Debug\mpm_labs_allctr_allctr_budds_systm.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -129,7 +129,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\proga_C\logger\.\include;C:\proga_C\allocator\allocator_global_heap\.\include;C:\proga_C\allocator\allocator\.\include;C:\proga_C\allocator\allocator_sorted_list\.\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\proga_C\logger\.\include;C:\proga_C\allocator\allocator_global_heap\.\include;C:\proga_C\allocator\allocator\.\include;C:\proga_C\allocator\allocator_sorted_list\.\include;C:\proga_C\allocator\allocator_buddies_system\.\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
@@ -146,10 +146,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\proga_C\logger\.\include;C:\proga_C\allocator\allocator_global_heap\.\include;C:\proga_C\allocator\allocator\.\include;C:\proga_C\allocator\allocator_sorted_list\.\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\proga_C\logger\.\include;C:\proga_C\allocator\allocator_global_heap\.\include;C:\proga_C\allocator\allocator\.\include;C:\proga_C\allocator\allocator_sorted_list\.\include;C:\proga_C\allocator\allocator_buddies_system\.\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\proga_C\logger\.\include;C:\proga_C\allocator\allocator_global_heap\.\include;C:\proga_C\allocator\allocator\.\include;C:\proga_C\allocator\allocator_sorted_list\.\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\proga_C\logger\.\include;C:\proga_C\allocator\allocator_global_heap\.\include;C:\proga_C\allocator\allocator\.\include;C:\proga_C\allocator\allocator_sorted_list\.\include;C:\proga_C\allocator\allocator_buddies_system\.\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -157,7 +157,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>logger\Release\mpm_labs_log.lib;allocator\allocator_global_heap\Release\mpm_labs_allctr_allctr_gbl_hp.lib;allocator\allocator\Release\mpm_labs_allctr_allctr.lib;allocator\allocator_sorted_list\Release\mpm_labs_allctr_allctr_srtd_lst.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>logger\Release\mpm_labs_log.lib;allocator\allocator_global_heap\Release\mpm_labs_allctr_allctr_gbl_hp.lib;allocator\allocator\Release\mpm_labs_allctr_allctr.lib;allocator\allocator_sorted_list\Release\mpm_labs_allctr_allctr_srtd_lst.lib;allocator\allocator_buddies_system\Release\mpm_labs_allctr_allctr_budds_systm.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
@@ -172,7 +172,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\proga_C\logger\.\include;C:\proga_C\allocator\allocator_global_heap\.\include;C:\proga_C\allocator\allocator\.\include;C:\proga_C\allocator\allocator_sorted_list\.\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\proga_C\logger\.\include;C:\proga_C\allocator\allocator_global_heap\.\include;C:\proga_C\allocator\allocator\.\include;C:\proga_C\allocator\allocator_sorted_list\.\include;C:\proga_C\allocator\allocator_buddies_system\.\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
@@ -189,10 +189,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\proga_C\logger\.\include;C:\proga_C\allocator\allocator_global_heap\.\include;C:\proga_C\allocator\allocator\.\include;C:\proga_C\allocator\allocator_sorted_list\.\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\proga_C\logger\.\include;C:\proga_C\allocator\allocator_global_heap\.\include;C:\proga_C\allocator\allocator\.\include;C:\proga_C\allocator\allocator_sorted_list\.\include;C:\proga_C\allocator\allocator_buddies_system\.\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\proga_C\logger\.\include;C:\proga_C\allocator\allocator_global_heap\.\include;C:\proga_C\allocator\allocator\.\include;C:\proga_C\allocator\allocator_sorted_list\.\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\proga_C\logger\.\include;C:\proga_C\allocator\allocator_global_heap\.\include;C:\proga_C\allocator\allocator\.\include;C:\proga_C\allocator\allocator_sorted_list\.\include;C:\proga_C\allocator\allocator_buddies_system\.\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -200,7 +200,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>logger\MinSizeRel\mpm_labs_log.lib;allocator\allocator_global_heap\MinSizeRel\mpm_labs_allctr_allctr_gbl_hp.lib;allocator\allocator\MinSizeRel\mpm_labs_allctr_allctr.lib;allocator\allocator_sorted_list\MinSizeRel\mpm_labs_allctr_allctr_srtd_lst.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>logger\MinSizeRel\mpm_labs_log.lib;allocator\allocator_global_heap\MinSizeRel\mpm_labs_allctr_allctr_gbl_hp.lib;allocator\allocator\MinSizeRel\mpm_labs_allctr_allctr.lib;allocator\allocator_sorted_list\MinSizeRel\mpm_labs_allctr_allctr_srtd_lst.lib;allocator\allocator_buddies_system\MinSizeRel\mpm_labs_allctr_allctr_budds_systm.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
@@ -215,7 +215,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\proga_C\logger\.\include;C:\proga_C\allocator\allocator_global_heap\.\include;C:\proga_C\allocator\allocator\.\include;C:\proga_C\allocator\allocator_sorted_list\.\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\proga_C\logger\.\include;C:\proga_C\allocator\allocator_global_heap\.\include;C:\proga_C\allocator\allocator\.\include;C:\proga_C\allocator\allocator_sorted_list\.\include;C:\proga_C\allocator\allocator_buddies_system\.\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -231,10 +231,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\proga_C\logger\.\include;C:\proga_C\allocator\allocator_global_heap\.\include;C:\proga_C\allocator\allocator\.\include;C:\proga_C\allocator\allocator_sorted_list\.\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\proga_C\logger\.\include;C:\proga_C\allocator\allocator_global_heap\.\include;C:\proga_C\allocator\allocator\.\include;C:\proga_C\allocator\allocator_sorted_list\.\include;C:\proga_C\allocator\allocator_buddies_system\.\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\proga_C\logger\.\include;C:\proga_C\allocator\allocator_global_heap\.\include;C:\proga_C\allocator\allocator\.\include;C:\proga_C\allocator\allocator_sorted_list\.\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\proga_C\logger\.\include;C:\proga_C\allocator\allocator_global_heap\.\include;C:\proga_C\allocator\allocator\.\include;C:\proga_C\allocator\allocator_sorted_list\.\include;C:\proga_C\allocator\allocator_buddies_system\.\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -242,7 +242,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>logger\RelWithDebInfo\mpm_labs_log.lib;allocator\allocator_global_heap\RelWithDebInfo\mpm_labs_allctr_allctr_gbl_hp.lib;allocator\allocator\RelWithDebInfo\mpm_labs_allctr_allctr.lib;allocator\allocator_sorted_list\RelWithDebInfo\mpm_labs_allctr_allctr_srtd_lst.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>logger\RelWithDebInfo\mpm_labs_log.lib;allocator\allocator_global_heap\RelWithDebInfo\mpm_labs_allctr_allctr_gbl_hp.lib;allocator\allocator\RelWithDebInfo\mpm_labs_allctr_allctr.lib;allocator\allocator_sorted_list\RelWithDebInfo\mpm_labs_allctr_allctr_srtd_lst.lib;allocator\allocator_buddies_system\RelWithDebInfo\mpm_labs_allctr_allctr_budds_systm.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -325,6 +325,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ProjectReference Include="C:\proga_C\build\allocator\allocator\mpm_labs_allctr_allctr.vcxproj">
       <Project>{216FB027-6647-34AB-9E03-951862097AAD}</Project>
       <Name>mpm_labs_allctr_allctr</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\proga_C\build\allocator\allocator_buddies_system\mpm_labs_allctr_allctr_budds_systm.vcxproj">
+      <Project>{10F6558C-14B4-3738-BA29-18507D149276}</Project>
+      <Name>mpm_labs_allctr_allctr_budds_systm</Name>
     </ProjectReference>
     <ProjectReference Include="C:\proga_C\build\allocator\allocator_global_heap\mpm_labs_allctr_allctr_gbl_hp.vcxproj">
       <Project>{8AAF7CEB-E762-3253-A64B-FD6988A100F3}</Project>

@@ -37,6 +37,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("C:/proga_C/build/allocator/allocator/cmake_install.cmake")
   include("C:/proga_C/build/allocator/allocator_global_heap/cmake_install.cmake")
   include("C:/proga_C/build/allocator/allocator_sorted_list/cmake_install.cmake")
+  include("C:/proga_C/build/allocator/allocator_buddies_system/cmake_install.cmake")
 
 endif()
 

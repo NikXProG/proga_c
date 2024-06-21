@@ -237,6 +237,15 @@ mpm_labs_allctr_allctr_IS_TOP_LEVEL:STATIC=OFF
 mpm_labs_allctr_allctr_SOURCE_DIR:STATIC=C:/proga_C/allocator/allocator
 
 //Value Computed by CMake
+mpm_labs_allctr_allctr_budds_systm_BINARY_DIR:STATIC=C:/proga_C/build/allocator/allocator_buddies_system
+
+//Value Computed by CMake
+mpm_labs_allctr_allctr_budds_systm_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+mpm_labs_allctr_allctr_budds_systm_SOURCE_DIR:STATIC=C:/proga_C/allocator/allocator_buddies_system
+
+//Value Computed by CMake
 mpm_labs_allctr_allctr_gbl_hp_BINARY_DIR:STATIC=C:/proga_C/build/allocator/allocator_global_heap
 
 //Value Computed by CMake
@@ -348,7 +357,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_MT
 CMAKE_MT-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=6
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=7
 //Platform information initialized
 CMAKE_PLATFORM_INFO_INITIALIZED:INTERNAL=1
 //noop for ranlib

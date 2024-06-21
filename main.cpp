@@ -3,54 +3,57 @@
 #include <allocator_global_heap.h>
 #include <allocator_sorted_list.h>
 #include <allocator_with_fit_mode.h>
+#include <allocator_buddies_system.h>
+
 int main() {
 
 
-    //loggers
-
-    // Создание и конфигурация логгера через Builder
-    client_logger_builder* builder = new client_logger_builder();
-
-    logger* logger1 = builder
-        ->add_file_stream("logfile1.txt", logger::severity::information)
-        ->add_console_stream(logger::severity::error)
-        ->build();
-
-    logger* logger2 = builder
-        ->clear()
-        ->add_file_stream("logfile1.txt", logger::severity::error)
-        ->add_file_stream("logfile2.txt", logger::severity::trace)
-        ->add_console_stream(logger::severity::debug)
-        ->build();
-
-    // Использование логгеров
-    /*logger1->information("This is an info message.");
-    logger1->error("This is an error message.");
-
-    logger2->trace("This is a trace message.");
-    logger2->error("This is another error message.");
-    logger2->debug("This is another error message.");*/
-
-    delete logger1;
-    delete logger2;
-
-    logger* logger_allocator = builder
-        ->clear()
-        ->add_file_stream("log_warning.txt", logger::severity::warning)
-        ->add_file_stream("log_debug.txt", logger::severity::debug)
-        ->add_file_stream("log_trace.txt", logger::severity::trace)
-        ->add_file_stream("log_err.txt", logger::severity::error)
-        ->add_file_stream("log_info.txt", logger::severity::information)
-        ->add_console_stream(logger::severity::warning)
-        ->add_console_stream(logger::severity::error)
-        ->build();
-
-    delete builder;
-
-    //allocators
-
     try{
-        //other allocator
+
+
+        //loggers
+
+        // Создание и конфигурация логгера через Builder
+        client_logger_builder* builder = new client_logger_builder();
+
+        logger* logger1 = builder
+            ->add_file_stream("logfile1.txt", logger::severity::information)
+            ->add_console_stream(logger::severity::error)
+            ->build();
+
+        logger* logger2 = builder
+            ->clear()
+            ->add_file_stream("logfile1.txt", logger::severity::error)
+            ->add_file_stream("logfile2.txt", logger::severity::trace)
+            ->add_console_stream(logger::severity::debug)
+            ->build();
+
+
+        // Использование логгеров
+        /*logger1->information("This is an info message.");
+        logger1->error("This is an error message.");
+
+        logger2->trace("This is a trace message.");
+        logger2->error("This is another error message.");
+        logger2->debug("This is another error message.");*/
+
+        delete logger1;
+        delete logger2;
+
+        logger* logger_allocator = builder
+            ->clear()
+            ->add_file_stream("log_warning.txt", logger::severity::warning)
+            ->add_file_stream("log_debug.txt", logger::severity::debug)
+            ->add_file_stream("log_trace.txt", logger::severity::trace)
+            ->add_file_stream("log_err.txt", logger::severity::error)
+            ->add_file_stream("log_info.txt", logger::severity::information)
+            ->add_console_stream(logger::severity::warning)
+            ->add_console_stream(logger::severity::error)
+            ->build();
+
+        delete builder;
+
+        //allocators
 
         allocator* allocator1 = new allocator_global_heap(logger_allocator);
 
@@ -98,8 +101,7 @@ int main() {
         for (int i = 0; i <20; i++){
             array3[i] = i;
         }     
-        
-        allocator2->deallocate(array2);
+
         allocator2->deallocate(array3);
 
 
@@ -114,6 +116,7 @@ int main() {
             array4[i] = i;
         }
 
+        allocator2->deallocate(array4);
 
         //method worst_fit
 
@@ -124,15 +127,48 @@ int main() {
         for (int i = 0; i <20; i++){
             array5[i] = i;
         }
+
         int* array6 =  reinterpret_cast<int*>(allocator2->allocate(sizeof(int), 21));
         int* array7 =  reinterpret_cast<int*>(allocator2->allocate(sizeof(int), 21));
         int* array8 =  reinterpret_cast<int*>(allocator2->allocate(sizeof(int), 21));
-        
-        //other allocator
 
+
+        // clear other memory allocator
+        allocator2->deallocate(array5);
+        allocator2->deallocate(array5);
+        allocator2->deallocate(array6);
+        allocator2->deallocate(array7);
+        allocator2->deallocate(array8);
+
+        allocator* allocator3 = new allocator_buddies_system(logger_allocator, sizeof(int), 4096, allocator1);
+
+        int* array9 =  reinterpret_cast<int*>(allocator3->allocate(sizeof(int), 100));
+
+        for (int i = 0; i < 61; i++) {
+            array9[i] = i;
+        }
+
+        for (int i = 0; i < 61; i++) {
+            std::cout << array9[i] << " ";
+        }
+
+        allocator3->deallocate(array9);
+
+        auto array11 =  reinterpret_cast<int*>(allocator3->allocate(sizeof(int), 100));
+
+        //allocator3->deallocate(array11);
+
+        auto array12 =  reinterpret_cast<int*>(allocator3->allocate(sizeof(int), 10));
+
+
+
+
+
+        //other allocator
         delete allocator2;
         delete allocator1;
-
+        //delete allocator3;
+        delete logger_allocator;
 
     }catch(std::logic_error& ex){
         std::cout << ex.what() << std::endl;
@@ -147,7 +183,7 @@ int main() {
         return -2;        
     }
 
-    delete logger_allocator;
+
     
     return 0;
 }

@@ -10,3 +10,5 @@ C:/proga_C/build/allocator/allocator_global_heap/CMakeFiles/mpm_labs_allctr_allc
 C:/proga_C/build/allocator/allocator_global_heap/CMakeFiles/ALL_BUILD.dir
 C:/proga_C/build/allocator/allocator_sorted_list/CMakeFiles/mpm_labs_allctr_allctr_srtd_lst.dir
 C:/proga_C/build/allocator/allocator_sorted_list/CMakeFiles/ALL_BUILD.dir
+C:/proga_C/build/allocator/allocator_buddies_system/CMakeFiles/mpm_labs_allctr_allctr_budds_systm.dir
+C:/proga_C/build/allocator/allocator_buddies_system/CMakeFiles/ALL_BUILD.dir

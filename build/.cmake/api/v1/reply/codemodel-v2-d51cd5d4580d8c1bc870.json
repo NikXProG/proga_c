@@ -1,0 +1,1356 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						7,
+						8
+					]
+				},
+				{
+					"build" : "logger",
+					"jsonFile" : "directory-logger-Debug-540440305f9964810dc4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "logger",
+					"targetIndexes" : 
+					[
+						1,
+						13
+					]
+				},
+				{
+					"build" : "allocator",
+					"childIndexes" : 
+					[
+						3,
+						4,
+						5,
+						6
+					],
+					"jsonFile" : "directory-allocator-Debug-431dc27378753f8ca5df.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "allocator",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "allocator/allocator",
+					"jsonFile" : "directory-allocator.allocator-Debug-b915eef0bf1de56f3767.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 3,
+					"source" : "allocator/allocator",
+					"targetIndexes" : 
+					[
+						3,
+						9
+					]
+				},
+				{
+					"build" : "allocator/allocator_global_heap",
+					"jsonFile" : "directory-allocator.allocator_global_heap-Debug-3cc6a7e4d6f2d09a8254.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 4,
+					"source" : "allocator/allocator_global_heap",
+					"targetIndexes" : 
+					[
+						4,
+						11
+					]
+				},
+				{
+					"build" : "allocator/allocator_sorted_list",
+					"jsonFile" : "directory-allocator.allocator_sorted_list-Debug-fee4b216c62c2194e5bb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 5,
+					"source" : "allocator/allocator_sorted_list",
+					"targetIndexes" : 
+					[
+						5,
+						12
+					]
+				},
+				{
+					"build" : "allocator/allocator_buddies_system",
+					"jsonFile" : "directory-allocator.allocator_buddies_system-Debug-d6a605bcab9059424fe5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 6,
+					"source" : "allocator/allocator_buddies_system",
+					"targetIndexes" : 
+					[
+						6,
+						10
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "mpm_labs",
+					"targetIndexes" : 
+					[
+						0,
+						7,
+						8
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "mpm_labs_log",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						13
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						3,
+						4,
+						5,
+						6
+					],
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "mpm_labs_allctr",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "mpm_labs_allctr_allctr",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						3,
+						9
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "mpm_labs_allctr_allctr_gbl_hp",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						4,
+						11
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "mpm_labs_allctr_allctr_srtd_lst",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						5,
+						12
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "mpm_labs_allctr_allctr_budds_systm",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						6,
+						10
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Debug-40cc700cde18853542da.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@d605ba84040dd83ce0d4",
+					"jsonFile" : "target-ALL_BUILD-Debug-c9ac62e498a72d64fb40.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@b7941848bdffc44b5b9b",
+					"jsonFile" : "target-ALL_BUILD-Debug-b983b7d0ddda9fe30035.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ALL_BUILD::@67a2d12acd41ed6b0bc3",
+					"jsonFile" : "target-ALL_BUILD-Debug-bc449350766b76a1bde8.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ALL_BUILD::@5406ead77bdc8e4b04d8",
+					"jsonFile" : "target-ALL_BUILD-Debug-7df693c2da77ced4152f.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ALL_BUILD::@4702340b8f18f13d4df3",
+					"jsonFile" : "target-ALL_BUILD-Debug-1d89948149e4b418aae1.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ALL_BUILD::@c9a9cf57e8abda1f3e48",
+					"jsonFile" : "target-ALL_BUILD-Debug-fd6fc4d5709837d8ea0a.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Debug-9b1108d34fc78cd1c07b.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mpm_labs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mpm_labs-Debug-27678e8368e7a7d68ea0.json",
+					"name" : "mpm_labs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "mpm_labs_allctr_allctr::@67a2d12acd41ed6b0bc3",
+					"jsonFile" : "target-mpm_labs_allctr_allctr-Debug-250a9e3bcee7542a2415.json",
+					"name" : "mpm_labs_allctr_allctr",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "mpm_labs_allctr_allctr_budds_systm::@c9a9cf57e8abda1f3e48",
+					"jsonFile" : "target-mpm_labs_allctr_allctr_budds_systm-Debug-717bea1762ca08effbee.json",
+					"name" : "mpm_labs_allctr_allctr_budds_systm",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "mpm_labs_allctr_allctr_gbl_hp::@5406ead77bdc8e4b04d8",
+					"jsonFile" : "target-mpm_labs_allctr_allctr_gbl_hp-Debug-a016cae3324a127c644a.json",
+					"name" : "mpm_labs_allctr_allctr_gbl_hp",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "mpm_labs_allctr_allctr_srtd_lst::@4702340b8f18f13d4df3",
+					"jsonFile" : "target-mpm_labs_allctr_allctr_srtd_lst-Debug-3d0431f54c802f225ae6.json",
+					"name" : "mpm_labs_allctr_allctr_srtd_lst",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "mpm_labs_log::@d605ba84040dd83ce0d4",
+					"jsonFile" : "target-mpm_labs_log-Debug-2159e96f2d9abf585116.json",
+					"name" : "mpm_labs_log",
+					"projectIndex" : 1
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"jsonFile" : "directory-.-Release-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						7,
+						8
+					]
+				},
+				{
+					"build" : "logger",
+					"jsonFile" : "directory-logger-Release-540440305f9964810dc4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "logger",
+					"targetIndexes" : 
+					[
+						1,
+						13
+					]
+				},
+				{
+					"build" : "allocator",
+					"childIndexes" : 
+					[
+						3,
+						4,
+						5,
+						6
+					],
+					"jsonFile" : "directory-allocator-Release-431dc27378753f8ca5df.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "allocator",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "allocator/allocator",
+					"jsonFile" : "directory-allocator.allocator-Release-b915eef0bf1de56f3767.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 3,
+					"source" : "allocator/allocator",
+					"targetIndexes" : 
+					[
+						3,
+						9
+					]
+				},
+				{
+					"build" : "allocator/allocator_global_heap",
+					"jsonFile" : "directory-allocator.allocator_global_heap-Release-3cc6a7e4d6f2d09a8254.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 4,
+					"source" : "allocator/allocator_global_heap",
+					"targetIndexes" : 
+					[
+						4,
+						11
+					]
+				},
+				{
+					"build" : "allocator/allocator_sorted_list",
+					"jsonFile" : "directory-allocator.allocator_sorted_list-Release-fee4b216c62c2194e5bb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 5,
+					"source" : "allocator/allocator_sorted_list",
+					"targetIndexes" : 
+					[
+						5,
+						12
+					]
+				},
+				{
+					"build" : "allocator/allocator_buddies_system",
+					"jsonFile" : "directory-allocator.allocator_buddies_system-Release-d6a605bcab9059424fe5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 6,
+					"source" : "allocator/allocator_buddies_system",
+					"targetIndexes" : 
+					[
+						6,
+						10
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "mpm_labs",
+					"targetIndexes" : 
+					[
+						0,
+						7,
+						8
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "mpm_labs_log",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						13
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						3,
+						4,
+						5,
+						6
+					],
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "mpm_labs_allctr",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "mpm_labs_allctr_allctr",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						3,
+						9
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "mpm_labs_allctr_allctr_gbl_hp",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						4,
+						11
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "mpm_labs_allctr_allctr_srtd_lst",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						5,
+						12
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "mpm_labs_allctr_allctr_budds_systm",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						6,
+						10
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Release-40cc700cde18853542da.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@d605ba84040dd83ce0d4",
+					"jsonFile" : "target-ALL_BUILD-Release-c9ac62e498a72d64fb40.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@b7941848bdffc44b5b9b",
+					"jsonFile" : "target-ALL_BUILD-Release-b983b7d0ddda9fe30035.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ALL_BUILD::@67a2d12acd41ed6b0bc3",
+					"jsonFile" : "target-ALL_BUILD-Release-bc449350766b76a1bde8.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ALL_BUILD::@5406ead77bdc8e4b04d8",
+					"jsonFile" : "target-ALL_BUILD-Release-7df693c2da77ced4152f.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ALL_BUILD::@4702340b8f18f13d4df3",
+					"jsonFile" : "target-ALL_BUILD-Release-1d89948149e4b418aae1.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ALL_BUILD::@c9a9cf57e8abda1f3e48",
+					"jsonFile" : "target-ALL_BUILD-Release-fd6fc4d5709837d8ea0a.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Release-9b1108d34fc78cd1c07b.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mpm_labs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mpm_labs-Release-afb5d55a8f923bb50558.json",
+					"name" : "mpm_labs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "mpm_labs_allctr_allctr::@67a2d12acd41ed6b0bc3",
+					"jsonFile" : "target-mpm_labs_allctr_allctr-Release-00b917b1ecfc12940c58.json",
+					"name" : "mpm_labs_allctr_allctr",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "mpm_labs_allctr_allctr_budds_systm::@c9a9cf57e8abda1f3e48",
+					"jsonFile" : "target-mpm_labs_allctr_allctr_budds_systm-Release-a25595f3bf29eb6ba936.json",
+					"name" : "mpm_labs_allctr_allctr_budds_systm",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "mpm_labs_allctr_allctr_gbl_hp::@5406ead77bdc8e4b04d8",
+					"jsonFile" : "target-mpm_labs_allctr_allctr_gbl_hp-Release-97333500738311693cb2.json",
+					"name" : "mpm_labs_allctr_allctr_gbl_hp",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "mpm_labs_allctr_allctr_srtd_lst::@4702340b8f18f13d4df3",
+					"jsonFile" : "target-mpm_labs_allctr_allctr_srtd_lst-Release-98f3ff718a22094fdb69.json",
+					"name" : "mpm_labs_allctr_allctr_srtd_lst",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "mpm_labs_log::@d605ba84040dd83ce0d4",
+					"jsonFile" : "target-mpm_labs_log-Release-6853280de0e1cb5a37be.json",
+					"name" : "mpm_labs_log",
+					"projectIndex" : 1
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"jsonFile" : "directory-.-MinSizeRel-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						7,
+						8
+					]
+				},
+				{
+					"build" : "logger",
+					"jsonFile" : "directory-logger-MinSizeRel-540440305f9964810dc4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "logger",
+					"targetIndexes" : 
+					[
+						1,
+						13
+					]
+				},
+				{
+					"build" : "allocator",
+					"childIndexes" : 
+					[
+						3,
+						4,
+						5,
+						6
+					],
+					"jsonFile" : "directory-allocator-MinSizeRel-431dc27378753f8ca5df.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "allocator",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "allocator/allocator",
+					"jsonFile" : "directory-allocator.allocator-MinSizeRel-b915eef0bf1de56f3767.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 3,
+					"source" : "allocator/allocator",
+					"targetIndexes" : 
+					[
+						3,
+						9
+					]
+				},
+				{
+					"build" : "allocator/allocator_global_heap",
+					"jsonFile" : "directory-allocator.allocator_global_heap-MinSizeRel-3cc6a7e4d6f2d09a8254.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 4,
+					"source" : "allocator/allocator_global_heap",
+					"targetIndexes" : 
+					[
+						4,
+						11
+					]
+				},
+				{
+					"build" : "allocator/allocator_sorted_list",
+					"jsonFile" : "directory-allocator.allocator_sorted_list-MinSizeRel-fee4b216c62c2194e5bb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 5,
+					"source" : "allocator/allocator_sorted_list",
+					"targetIndexes" : 
+					[
+						5,
+						12
+					]
+				},
+				{
+					"build" : "allocator/allocator_buddies_system",
+					"jsonFile" : "directory-allocator.allocator_buddies_system-MinSizeRel-d6a605bcab9059424fe5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 6,
+					"source" : "allocator/allocator_buddies_system",
+					"targetIndexes" : 
+					[
+						6,
+						10
+					]
+				}
+			],
+			"name" : "MinSizeRel",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "mpm_labs",
+					"targetIndexes" : 
+					[
+						0,
+						7,
+						8
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "mpm_labs_log",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						13
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						3,
+						4,
+						5,
+						6
+					],
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "mpm_labs_allctr",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "mpm_labs_allctr_allctr",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						3,
+						9
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "mpm_labs_allctr_allctr_gbl_hp",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						4,
+						11
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "mpm_labs_allctr_allctr_srtd_lst",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						5,
+						12
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "mpm_labs_allctr_allctr_budds_systm",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						6,
+						10
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-40cc700cde18853542da.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@d605ba84040dd83ce0d4",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-c9ac62e498a72d64fb40.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@b7941848bdffc44b5b9b",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-b983b7d0ddda9fe30035.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ALL_BUILD::@67a2d12acd41ed6b0bc3",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-bc449350766b76a1bde8.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ALL_BUILD::@5406ead77bdc8e4b04d8",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-7df693c2da77ced4152f.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ALL_BUILD::@4702340b8f18f13d4df3",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-1d89948149e4b418aae1.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ALL_BUILD::@c9a9cf57e8abda1f3e48",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-fd6fc4d5709837d8ea0a.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-MinSizeRel-9b1108d34fc78cd1c07b.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mpm_labs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mpm_labs-MinSizeRel-de644bcaa91e7223f22c.json",
+					"name" : "mpm_labs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "mpm_labs_allctr_allctr::@67a2d12acd41ed6b0bc3",
+					"jsonFile" : "target-mpm_labs_allctr_allctr-MinSizeRel-a73969681cd1c72ef9a0.json",
+					"name" : "mpm_labs_allctr_allctr",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "mpm_labs_allctr_allctr_budds_systm::@c9a9cf57e8abda1f3e48",
+					"jsonFile" : "target-mpm_labs_allctr_allctr_budds_systm-MinSizeRel-5c4daab439f8e33d4cac.json",
+					"name" : "mpm_labs_allctr_allctr_budds_systm",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "mpm_labs_allctr_allctr_gbl_hp::@5406ead77bdc8e4b04d8",
+					"jsonFile" : "target-mpm_labs_allctr_allctr_gbl_hp-MinSizeRel-46057d510a7f51bb4886.json",
+					"name" : "mpm_labs_allctr_allctr_gbl_hp",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "mpm_labs_allctr_allctr_srtd_lst::@4702340b8f18f13d4df3",
+					"jsonFile" : "target-mpm_labs_allctr_allctr_srtd_lst-MinSizeRel-7d4a72b0e2cf3b24da0c.json",
+					"name" : "mpm_labs_allctr_allctr_srtd_lst",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "mpm_labs_log::@d605ba84040dd83ce0d4",
+					"jsonFile" : "target-mpm_labs_log-MinSizeRel-c7f9bab225e0278f6a86.json",
+					"name" : "mpm_labs_log",
+					"projectIndex" : 1
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"jsonFile" : "directory-.-RelWithDebInfo-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						7,
+						8
+					]
+				},
+				{
+					"build" : "logger",
+					"jsonFile" : "directory-logger-RelWithDebInfo-540440305f9964810dc4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "logger",
+					"targetIndexes" : 
+					[
+						1,
+						13
+					]
+				},
+				{
+					"build" : "allocator",
+					"childIndexes" : 
+					[
+						3,
+						4,
+						5,
+						6
+					],
+					"jsonFile" : "directory-allocator-RelWithDebInfo-431dc27378753f8ca5df.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "allocator",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "allocator/allocator",
+					"jsonFile" : "directory-allocator.allocator-RelWithDebInfo-b915eef0bf1de56f3767.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 3,
+					"source" : "allocator/allocator",
+					"targetIndexes" : 
+					[
+						3,
+						9
+					]
+				},
+				{
+					"build" : "allocator/allocator_global_heap",
+					"jsonFile" : "directory-allocator.allocator_global_heap-RelWithDebInfo-3cc6a7e4d6f2d09a8254.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 4,
+					"source" : "allocator/allocator_global_heap",
+					"targetIndexes" : 
+					[
+						4,
+						11
+					]
+				},
+				{
+					"build" : "allocator/allocator_sorted_list",
+					"jsonFile" : "directory-allocator.allocator_sorted_list-RelWithDebInfo-fee4b216c62c2194e5bb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 5,
+					"source" : "allocator/allocator_sorted_list",
+					"targetIndexes" : 
+					[
+						5,
+						12
+					]
+				},
+				{
+					"build" : "allocator/allocator_buddies_system",
+					"jsonFile" : "directory-allocator.allocator_buddies_system-RelWithDebInfo-d6a605bcab9059424fe5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 6,
+					"source" : "allocator/allocator_buddies_system",
+					"targetIndexes" : 
+					[
+						6,
+						10
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "mpm_labs",
+					"targetIndexes" : 
+					[
+						0,
+						7,
+						8
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "mpm_labs_log",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						13
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						3,
+						4,
+						5,
+						6
+					],
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "mpm_labs_allctr",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "mpm_labs_allctr_allctr",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						3,
+						9
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "mpm_labs_allctr_allctr_gbl_hp",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						4,
+						11
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "mpm_labs_allctr_allctr_srtd_lst",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						5,
+						12
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "mpm_labs_allctr_allctr_budds_systm",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						6,
+						10
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-40cc700cde18853542da.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@d605ba84040dd83ce0d4",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-c9ac62e498a72d64fb40.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@b7941848bdffc44b5b9b",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-b983b7d0ddda9fe30035.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ALL_BUILD::@67a2d12acd41ed6b0bc3",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-bc449350766b76a1bde8.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ALL_BUILD::@5406ead77bdc8e4b04d8",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-7df693c2da77ced4152f.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ALL_BUILD::@4702340b8f18f13d4df3",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-1d89948149e4b418aae1.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ALL_BUILD::@c9a9cf57e8abda1f3e48",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-fd6fc4d5709837d8ea0a.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-RelWithDebInfo-9b1108d34fc78cd1c07b.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mpm_labs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mpm_labs-RelWithDebInfo-10523e75498b138bf889.json",
+					"name" : "mpm_labs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "mpm_labs_allctr_allctr::@67a2d12acd41ed6b0bc3",
+					"jsonFile" : "target-mpm_labs_allctr_allctr-RelWithDebInfo-3415d7d3ffa701e943a6.json",
+					"name" : "mpm_labs_allctr_allctr",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "mpm_labs_allctr_allctr_budds_systm::@c9a9cf57e8abda1f3e48",
+					"jsonFile" : "target-mpm_labs_allctr_allctr_budds_systm-RelWithDebInfo-0f12e24f7c1de03b4ebf.json",
+					"name" : "mpm_labs_allctr_allctr_budds_systm",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "mpm_labs_allctr_allctr_gbl_hp::@5406ead77bdc8e4b04d8",
+					"jsonFile" : "target-mpm_labs_allctr_allctr_gbl_hp-RelWithDebInfo-237e311ea256ac304e52.json",
+					"name" : "mpm_labs_allctr_allctr_gbl_hp",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "mpm_labs_allctr_allctr_srtd_lst::@4702340b8f18f13d4df3",
+					"jsonFile" : "target-mpm_labs_allctr_allctr_srtd_lst-RelWithDebInfo-70280e5f56c64b5db8a6.json",
+					"name" : "mpm_labs_allctr_allctr_srtd_lst",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "mpm_labs_log::@d605ba84040dd83ce0d4",
+					"jsonFile" : "target-mpm_labs_log-RelWithDebInfo-aafb81a577ba12808555.json",
+					"name" : "mpm_labs_log",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/proga_C/build",
+		"source" : "C:/proga_C"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
